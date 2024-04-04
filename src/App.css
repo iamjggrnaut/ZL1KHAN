@@ -1,38 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: black;
+  min-height: 8vh;
+}
+
+.ws-name {
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+}
+
+.navlink:hover {
+  color: red;
+  transition: all 0.25s ease-in-out;
+}
+
+.prime-btn {
+  background-color: red;
+  padding: 4px 24px;
+  border: none;
+  border-radius: 0.25vh;
+  outline: none;
+}
+
+.secondary-btn {
+  padding: 4px 24px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.25vh;
+  outline: none;
+  font-weight: 200;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url('/src/assets/he.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.dark-layer {
+  min-height: 100vh;
+  background-color: rgb(10, 10, 10, 0.5);
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.hero-content {
+  z-index: 99999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.hero-description {
+  width: 50vw;
+}
+
+
+
+#about {
+  background-image: url('/src/assets/texture.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.stats {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  gap: auto;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+}
+
+
+
+#programs {
+  min-height: 80vh;
+  background-image: url('/src/assets/prog.png');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.program-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+
+.small-img {
+  height: 35vh;
+  width: 15vw;
+  min-width: 200px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#contact {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer {
+  min-height: 88px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+.media-page {
+  min-height: 100vh;
+}
+
+.media-top {
+  min-height: 95vh;
+  width: 100%;
+  background-image: url('/src/assets/highlights.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-top a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#media-content {
+  min-height: 100vh;
+  padding-top: 5vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.programs-page {
+  min-height: 100vh;
+}
+
+.prog-hero {
+  background-image: url('/src/assets//prog-hero.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prog-hero a {
+  text-decoration: none;
+  color: white;
+}
+
+.prog-cta {
+  width: 70vw;
+  text-align: center;
+}
+
+#program-list {
+  min-height: 100vh;
+  padding-top: 32px;
+}
+
+.prog-img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  object-position: top;
 }
