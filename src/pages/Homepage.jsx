@@ -97,7 +97,7 @@ const Homepage = () => {
                             </p>
                             <div className="d-flex align-items-center gap-3">
                                 <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
-                                <button className="secondary-btn fw-bold" onClick={() => navigate('/programs')}>VIEW ALL PROGRAMS</button>
+                                <button className="secondary-btn fw-bold" style={{ marginLeft: '20px' }} onClick={() => navigate('/programs')}>VIEW ALL PROGRAMS</button>
                             </div>
                         </div>
                     </div>
