@@ -275,6 +275,10 @@
     gap: 20px;
   }
 
+  .navlink {
+    margin-right: 20px;
+  }
+
   .stats {
     display: flex;
     flex-direction: column;
