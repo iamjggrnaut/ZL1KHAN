@@ -40,7 +40,7 @@ const Homepage = () => {
                         <p className='hero-description'>
                             Unleash Your Inner Beast: Transform Your Body and <span style={{ color: 'red', fontWeight: 'bold' }}>Dominate</span> with Our Intense Training Program! Get <span style={{ color: 'red', fontWeight: 'bold' }}>Stronger</span>, <span style={{ color: 'red', fontWeight: 'bold' }}>Leaner</span>, and <span style={{ color: 'red', fontWeight: 'bold' }}>Fiercer</span> Today!
                         </p>
-                        <div className="d-flex align-items-center gap-3 mt-2">
+                        <div className="d-flex align-items-center gap-3 mt-2 hero-cta">
                             <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
                             <span>and train with a <span style={{ color: 'red', fontWeight: 'bold' }}>World Champion</span>!</span>
                         </div>

@@ -51,6 +51,7 @@
   border: none;
   border-radius: 0.25vh;
   outline: none;
+  text-align: center;
 }
 
 .secondary-btn {
@@ -247,4 +248,67 @@
   height: 45vh;
   object-fit: cover;
   object-position: top;
+}
+
+
+@media screen and (max-width: 1048px) {
+
+  .hero-description {
+    width: auto !important;
+  }
+
+  .hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-menu {
+    margin-bottom: 10px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .prog-description p {
+    width: 100% !important;
+  }
+
+  .small-img {
+    width: 80vw !important;
+    height: 60vh !important;
+  }
+
+  #contact {
+    margin-top: 30px;
+  }
+
+  .right-footer p {
+    text-align: end;
+  }
+
+  #program-list div {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-bottom: 20px;
+  }
+
 }

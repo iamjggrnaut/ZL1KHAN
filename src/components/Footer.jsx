@@ -14,11 +14,15 @@ const Footer = () => {
                     <p>Copyright, 2024</p>
                 </div>
                 <div className="right-footer pb-3">
-                    <p className='mb-1'>Designed and developed by</p>
-                    <span>Rustam Akhmedov</span>
+                    <p className='mb-1'>Designed and developed by <span>Rustam Akhmedov</span>
+                    </p>
                     <div className='mt-2 d-flex gap-3 align-items-center'>
-                        <FaTelegramPlane style={{ fontSize: '36px', padding: '8px', borderRadius: '100%', backgroundColor: 'deepskyblue' }} />
-                        <img style={{ width: '44px' }} src={insta} alt="" />
+                        <a href="https://t.me/Jggrnaut">
+                            <FaTelegramPlane style={{ fontSize: '36px', cursor: 'pointer', padding: '8px', borderRadius: '100%', backgroundColor: 'deepskyblue' }} />
+                        </a>
+                        <a href="https://www.instagram.com/iamjggrnaut">
+                            <img style={{ width: '44px', cursor: 'pointer' }} src={insta} alt="" />
+                        </a>
                     </div>
                 </div>
             </div>

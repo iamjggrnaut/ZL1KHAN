@@ -16,8 +16,8 @@ const Navbar = () => {
                     <a className='navlink' href={'/programs'}>programs</a>
                     <a className='navlink' href={'/gallery'}>gallery</a>
                     <a className='navlink' href={'#contact'}>contact us</a>
-                    <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
                 </div>
+                <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
             </div>
         </div>
     )
