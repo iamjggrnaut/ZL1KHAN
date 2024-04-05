@@ -59,15 +59,15 @@ const Homepage = () => {
                         </p>
                         <div className="stats">
                             <div className="stat-item">
-                                <p className="stat-number">10 000+</p>
+                                <p className="stat-number">10&nbsp;000+</p>
                                 <p>people completed the program</p>
                             </div>
                             <div className="stat-item">
-                                <p className="stat-number">320 000+</p>
+                                <p className="stat-number">320&nbsp;000+</p>
                                 <p>hours of hard and efficient workout</p>
                             </div>
                             <div className="stat-item">
-                                <p className="stat-number">50 000+</p>
+                                <p className="stat-number">50&nbsp;000+</p>
                                 <p>sparring fights arranged</p>
                             </div>
                         </div>
