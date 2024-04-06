@@ -34,7 +34,7 @@ const ProgramsPage = () => {
                         <p>✅ Meal plan</p>
                         <p>✅ choice of sports nutrition</p>
                         <p>✅ Draw for training with me offline for a month.</p>
-                        <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
+                        {/* <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a> */}
                     </div>
                 </div>
                 <div className="row">
@@ -47,7 +47,7 @@ const ProgramsPage = () => {
                         <p>❌ Meal plan</p>
                         <p>❌ choice of sports nutrition</p>
                         <p>❌ Draw for training with me offline for a month.</p>
-                        <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
+                        {/* <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a> */}
                     </div>
                     <div className="col mb-5">
                         <img src={photo2} className='prog-img hidden' alt="" />
@@ -66,13 +66,13 @@ const ProgramsPage = () => {
                         <p>❌ Meal plan</p>
                         <p>❌ choice of sports nutrition</p>
                         <p>❌ Draw for training with me offline for a month.</p>
-                        <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
+                        {/* <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a> */}
                     </div>
                 </div>
 
             </div>
             <div id="contact">
-                <h4 className='fw-bold'>Contact us</h4>
+                {/* <h4 className='fw-bold'>Contact us</h4>
                 <div>
                     <span className='fw-bold me-2'>Telegram:</span>
                     <a href='https://t.me/ZLKHAN' style={{ color: 'red', fontWeight: 'bold', }}>ZLKHAN</a>
@@ -85,7 +85,7 @@ const ProgramsPage = () => {
                     <a href="https://www.instagram.com/zl1khan/">
                         <img style={{ width: '44px', cursor: 'pointer' }} src={insta} alt="" />
                     </a>
-                </div>
+                </div> */}
                 <img src={round} alt="" />
             </div>
         </div>
