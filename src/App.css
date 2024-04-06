@@ -14,18 +14,22 @@
 .navbar {
   background-color: black;
   min-height: 8vh;
+  display: flex;
+  justify-content: center;
 }
 
 .ws-name {
   font-style: italic;
   font-weight: bold;
   cursor: pointer;
+  text-align: center;
 }
 
 .nav-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .nav-menu {
@@ -87,6 +91,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  padding-top: 100px;
   min-height: 100vh;
 }
 

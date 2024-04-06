@@ -12,12 +12,12 @@ const Navbar = () => {
                 <h3 className="ws-name" onClick={() => navigate('/')}>
                     ZL1KHAN TRAINING
                 </h3>
-                <div className="nav-menu">
-                    <a className='navlink fw-bold fs-4' style={{ color: 'red' }} href={'/programs'}>PROGRAMS</a>
-                    {/* <a className='navlink' href={'/gallery'}>gallery</a> */}
-                    <a className='navlink fs-4' href={'#contact'}>CONTACT US</a>
-                </div>
-                <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
+                {/* <div className="nav-menu"> */}
+                {/* <a className='navlink fw-bold fs-4' style={{ color: 'red' }} href={'/programs'}>PROGRAMS</a> */}
+                {/* <a className='navlink' href={'/gallery'}>gallery</a> */}
+                {/* <a className='navlink' href={'#contact'}>CONTACT US</a> */}
+                {/* </div> */}
+                {/* <a href='#contact' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">Contact Us</a> */}
             </div>
         </div>
     )

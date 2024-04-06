@@ -19,11 +19,11 @@ const Homepage = () => {
                             Unleash Your Inner Beast: Transform Your Body and <span style={{ color: 'red', fontWeight: 'bold' }}>Dominate</span> with Our Intense Training Program! Get <span style={{ color: 'red', fontWeight: 'bold' }}>Stronger</span>, <span style={{ color: 'red', fontWeight: 'bold' }}>Leaner</span>, and <span style={{ color: 'red', fontWeight: 'bold' }}>Fiercer</span> Today!
                         </p>
                         <div className="d-flex align-items-center gap-3 mt-2 hero-cta">
-                            <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
+                            <a href='/programs' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
                             <span>and train with a <span style={{ color: 'red', fontWeight: 'bold' }}>World Champion</span>!</span>
                         </div>
                         <div className='d-flex align-items-center justify-content-center mt-4' style={{ width: '90vw', minHeight: '30vh' }}>
-                            <a href='#about' style={{ textDecoration: 'none', color: 'white' }} className="secondary-btn">Learn more</a>
+                            <a href='/programs' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn">PROGRAMS</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ const Homepage = () => {
                                 Welcome to the Beast Training Program, where we redefine limits and unleash your inner strength. Led by elite trainers, our program is designed to sculpt bodies and minds alike, fostering resilience, power, and agility. Whether you're aiming to shed weight or conquer the ring, become a beast with us.
                             </p> */}
                             <div className="d-flex align-items-center gap-3">
-                                <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
+                                {/* <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a> */}
                                 <button className="secondary-btn fw-bold" style={{ marginLeft: '20px' }} onClick={() => navigate('/programs')}>VIEW ALL PROGRAMS</button>
                             </div>
                         </div>
@@ -82,10 +82,9 @@ const Homepage = () => {
                 </div>
             </div>
             <br />
-            <h4 className='text-center'>Gallery</h4>
             <br />
             <div id="contact">
-                <h4 className='fw-bold'>Contact us</h4>
+                {/* <h4 className='fw-bold'>Contact us</h4>
                 <div>
                     <span className='fw-bold me-2'>Telegram:</span>
                     <a href='https://t.me/ZLKHAN' style={{ color: 'red', fontWeight: 'bold', }}>ZLKHAN</a>
@@ -98,7 +97,7 @@ const Homepage = () => {
                     <a href="https://www.instagram.com/zl1khan/">
                         <img style={{ width: '44px', cursor: 'pointer' }} src={insta} alt="" />
                     </a>
-                </div>
+                </div> */}
                 <img src={round} alt="" />
             </div>
         </div>
