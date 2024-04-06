@@ -250,11 +250,21 @@
   object-position: top;
 }
 
+.prog-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media screen and (max-width: 1048px) {
 
   .hero-description {
     width: auto !important;
+  }
+
+  .hidden {
+    display: none;
   }
 
   .hero-cta {

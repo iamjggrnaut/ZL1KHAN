@@ -39,7 +39,7 @@ const ProgramsPage = () => {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <h3 className='fw-bold' style={{ fontStyle: 'italic' }}>BEAST TRAINING 2 - <span style={{ textDecoration: 'line-through', color: 'red', fontSize: '3vh' }}>240$</span> <span style={{ color: 'green' }}>79$</span></h3>
+                        <h3 className='fw-bold' style={{ fontStyle: 'italic' }}>BEAST TRAINING 2 - <span style={{ textDecoration: 'line-through', color: 'red', fontSize: '3vh' }}>147$</span> <span style={{ color: 'green' }}>49$</span></h3>
                         <p>✅ Access to the marathon channel with video training</p>
                         <p>✅ Chat with participants</p>
                         <p>✅ Checking reports</p>
@@ -50,15 +50,15 @@ const ProgramsPage = () => {
                         <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
                     </div>
                     <div className="col mb-5">
-                        <img src={photo2} className='prog-img' alt="" />
+                        <img src={photo2} className='prog-img hidden' alt="" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col mb-5">
-                        <img src={photo3} className='prog-img' alt="" />
+                        <img src={photo3} className='prog-img hidden' alt="" />
                     </div>
                     <div className="col">
-                        <h3 className='fw-bold' style={{ fontStyle: 'italic' }}>BEAST TRAINING 3 - <span style={{ textDecoration: 'line-through', color: 'red', fontSize: '3vh' }}>240$</span> <span style={{ color: 'green' }}>79$</span></h3>
+                        <h3 className='fw-bold' style={{ fontStyle: 'italic' }}>BEAST TRAINING 3 - <span style={{ textDecoration: 'line-through', color: 'red', fontSize: '3vh' }}>57$</span> <span style={{ color: 'green' }}>19$</span></h3>
                         <p>✅ Access to the marathon channel with video training</p>
                         <p>❌ Chat with participants</p>
                         <p>❌ Checking reports</p>

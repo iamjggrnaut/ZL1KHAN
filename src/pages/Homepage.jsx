@@ -1,35 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Modal from 'react-bootstrap/Modal';
 
 import { FaTelegramPlane } from "react-icons/fa";
-
-
-import img1 from '../assets/22.JPG'
-import img2 from '../assets/33.JPG'
-import img3 from '../assets/44.JPG'
-import img4 from '../assets/55.JPG'
-import img5 from '../assets/66.PNG'
-import img6 from '../assets/77.JPG'
-import img7 from '../assets/1.JPG'
-import img8 from '../assets/2.JPEG'
-import img9 from '../assets/3.JPG'
-import img10 from '../assets/4.JPG'
 import insta from '../assets/insta.png'
 import round from '../assets/round.png'
 
 const Homepage = () => {
 
     const navigate = useNavigate()
-
-    const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
-
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    const [selected, setSelected] = useState()
 
     return (
         <div className='homepage'>
@@ -92,9 +70,9 @@ const Homepage = () => {
                     <div className="program-content">
                         <div className="prog-description">
                             <h3 className='fw-bold' style={{ fontStyle: 'italic' }}>BEAST TRAINING PROGRAM</h3>
-                            <p className="w-50">
+                            {/* <p className="w-50">
                                 Welcome to the Beast Training Program, where we redefine limits and unleash your inner strength. Led by elite trainers, our program is designed to sculpt bodies and minds alike, fostering resilience, power, and agility. Whether you're aiming to shed weight or conquer the ring, become a beast with us.
-                            </p>
+                            </p> */}
                             <div className="d-flex align-items-center gap-3">
                                 <a href='https://t.me/ZLKHAN' style={{ textDecoration: 'none', color: 'white' }} className="prime-btn fw-bold">JOIN NOW</a>
                                 <button className="secondary-btn fw-bold" style={{ marginLeft: '20px' }} onClick={() => navigate('/programs')}>VIEW ALL PROGRAMS</button>
@@ -106,29 +84,6 @@ const Homepage = () => {
             <br />
             <h4 className='text-center'>Gallery</h4>
             <br />
-            <div id="gallery">
-                <div className="container">
-                    <div className="gallery-content">
-                        <div className="row">
-                            {
-                                images && images.map((img, i) => (
-                                    <div className="col d-flex justify-content-center" key={i}>
-                                        <img className='small-img' src={img} alt=""
-                                            onClick={() => {
-                                                setSelected(img);
-                                                handleShow()
-                                            }}
-                                        />
-                                    </div>
-                                ))
-                            }
-                        </div>
-                        <div className="mt-3 d-flex justify-content-center">
-                            <button className="prime-btn fw-bold" onClick={() => navigate('/gallery')}>VIEW ALL</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div id="contact">
                 <h4 className='fw-bold'>Contact us</h4>
                 <div>
@@ -146,20 +101,6 @@ const Homepage = () => {
                 </div>
                 <img src={round} alt="" />
             </div>
-
-            <Modal
-                show={show}
-                onHide={handleClose}
-                size="lg"
-                aria-labelledby="contained-modal-title-vcenter"
-                centered
-            >
-                <Modal.Header closeButton>
-                </Modal.Header>
-                <Modal.Body>
-                    <img style={{ width: '100%' }} src={selected} alt="" />
-                </Modal.Body>
-            </Modal>
         </div>
     )
 }
