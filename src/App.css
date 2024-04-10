@@ -264,6 +264,10 @@
 
 @media screen and (max-width: 1048px) {
 
+  .hero-content {
+    padding-top: 200px;
+  }
+
   .hero-description {
     width: auto !important;
   }
